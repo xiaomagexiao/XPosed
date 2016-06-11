@@ -1,0 +1,22 @@
+[
+  {
+    "packageName": "com.example.target",
+    "details": [
+      {
+        "className": "com.example.target.MyLog",
+        "functionName": "ee",
+        "enable": true,
+        "stack": false,
+        "tag": "LOGE",
+        "argsType": "String,String"
+      },{
+        "className": "com.example.target.MyLog",
+        "functionName": "e",
+        "enable": true,
+        "stack": true,
+        "tag": "LOGEE",
+        "argsType": "String,String"
+      }
+    ]
+  }
+]

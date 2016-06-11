@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linLayoutSmall"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="#ccdd55"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bt_hide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="-5dp"
+            android:layout_marginTop="-5dp"
+            android:text="xxxx" />
+
+        <Button
+            android:id="@+id/bt_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="启动eeeeeeeeeeeeee" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_buttom"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="#ccdd55"
+        android:orientation="vertical"></RelativeLayout>
+</LinearLayout>

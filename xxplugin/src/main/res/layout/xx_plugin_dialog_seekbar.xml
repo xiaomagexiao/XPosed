@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="dialog_view_linear" android:background="#00000000" android:padding="14.0dip" android:layout_width="300.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:tag="dialog_seekbar_view" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="200.0dip" android:layout_centerInParent="true">
+        <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/dialog_title_textview" android:tag="dialog_title_textview" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="uuuuuu" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/dialog_seekbar_text" android:tag="dialog_seekbar_text" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="10.0dip" android:text="100" />
+        <SeekBar android:id="@id/dialog_seekbar" android:tag="dialog_seekbar" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:maxHeight="2.0dip" android:max="100" android:progress="50" android:minHeight="1.0dip" android:thumbOffset="0.0px" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <View android:background="#ff3f3f3f" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/dialog_left_button" android:tag="dialog_left_button" android:background="#00000000" android:layout_width="0.0dip" android:layout_height="50.0dip" android:text="确定" android:layout_weight="1.0" />
+            <View android:background="#ff3f3f3f" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+            <Button android:id="@id/dialog_right_button" android:tag="dialog_right_button" android:background="#00000000" android:layout_width="0.0dip" android:layout_height="50.0dip" android:text="取消" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

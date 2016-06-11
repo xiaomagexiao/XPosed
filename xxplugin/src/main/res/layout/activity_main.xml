@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white" >
+
+    <LinearLayout
+        android:id="@+id/ll_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/bt_editcell"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="editcell" />
+
+        <Button
+            android:id="@+id/bt_sectionview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="sectionview" />
+
+        <Button
+            android:id="@+id/bt_switchcell"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="switchcell" />
+
+        <Button
+            android:id="@+id/bt_buttoncell"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="buttoncell" />
+
+        <Button
+            android:id="@+id/bt_setting"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="setting" />
+        
+        <Button
+            android:id="@+id/bt_openother"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="开启其他应用" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/linear"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_top"
+        android:orientation="vertical" />
+
+</RelativeLayout>

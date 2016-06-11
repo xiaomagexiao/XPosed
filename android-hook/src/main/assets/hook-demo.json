@@ -1,0 +1,124 @@
+[
+  {
+    "packageName": "com.xxAssistant",
+    "details": [
+      {
+        "className": "com.xxAssistant.Utils.Utility",
+        "functionName": "exec",
+        "enable": true,
+        "stack": false,
+        "tag": "LOGa",
+        "argsType": "String"
+      },
+      {
+        "className": "com.xxlib.utils.c.c",
+        "functionName": "b",
+        "enable": false,
+        "stack": false,
+        "tag": "LOGb",
+        "argsType": "String,String"
+      },
+      {
+        "className": "com.xxlib.utils.c.c",
+        "functionName": "c",
+        "enable": false,
+        "stack": false,
+        "tag": "LOGc",
+        "argsType": "String,String"
+      },
+      {
+        "className": "com.xxlib.utils.c.c",
+        "functionName": "d",
+        "enable": false,
+        "stack": false,
+        "tag": "LOGd",
+        "argsType": "String,String"
+      },
+      {
+        "className": "com.xxlib.utils.q",
+        "functionName": "b",
+        "enable": false,
+        "stack": false,
+        "tag": "DanMuKu-isvirtual",
+        "argsType": "",
+        "result": "boolean-false"
+      }
+    ]
+  },
+  {
+    "packageName": "all",
+    "details": [
+      {
+        "className": "android.view.View",
+        "functionName": "setVisibility",
+        "enable": false,
+        "stack": true,
+        "tag": "setVisibility",
+        "argsType": "int"
+      },
+      {
+        "className": "android.view.View",
+        "functionName": "setOnClickListener",
+        "enable": false,
+        "stack": true,
+        "tag": "setOnClickListener",
+        "argsType": "android.view.View$OnClickListener"
+      },
+      {
+        "className": "android.view.View",
+        "functionName": "setLayoutParams",
+        "enable": false,
+        "stack": false,
+        "tag": "setLayoutParams",
+        "argsType": "android.view.ViewGroup$LayoutParams"
+      },
+      {
+        "className": "android.widget.TextView",
+        "functionName": "setText",
+        "enable": true,
+        "stack": true,
+        "tag": "setText",
+        "argsType": "java.lang.CharSequence"
+      }
+    ]
+  },
+  {
+    "packageName": "com.example.target",
+    "details": [
+      {
+        "className": "com.example.target.MyLog",
+        "functionName": "ee",
+        "enable": false,
+        "stack": false,
+        "tag": "LOGE",
+        "argsType": "String,String"
+      },
+      {
+        "className": "com.example.target.MyLog",
+        "functionName": "e",
+        "enable": false,
+        "stack": true,
+        "tag": "LOGEE",
+        "argsType": "String,String"
+      },
+      {
+        "className": "com.example.target.MyLog",
+        "functionName": "isOk",
+        "enable": true,
+        "stack": false,
+        "tag": "LOGisOk",
+        "argsType": "",
+        "result": "boolean-false"
+      },
+      {
+        "className": "com.example.target.MyLog",
+        "functionName": "getKey",
+        "enable": true,
+        "stack": false,
+        "tag": "LOGgetKey",
+        "argsType": "",
+        "result": "String-hhhhhhhhhhhhhhhhhhhh"
+      }
+    ]
+  }
+]

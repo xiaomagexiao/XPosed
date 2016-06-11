@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">刀塔传奇</string>
+    <string name="hello_world">hello</string>
+    <string name="action_settings">Settings</string>
+</resources>

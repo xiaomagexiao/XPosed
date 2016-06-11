@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.game.ui.index.MainActivity">
+    <item
+        android:id="@+id/action_boot"
+        android:orderInCategory="1"
+        android:title="@string/action_boot"
+        android:checkable="true"
+        android:checked="true"
+        app:showAsAction="never" />
+</menu>
